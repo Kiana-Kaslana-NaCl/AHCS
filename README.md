@@ -1,4 +1,4 @@
-# Anti-Honkai_Combat_System
+# Anti-Honkai Combat System
 
 AHCS_updatekiller:
 
