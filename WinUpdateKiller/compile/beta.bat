@@ -1,0 +1,2 @@
+cmd /c chcp 65001>nul && C:\mingw64\bin\g++.exe -fdiagnostics-color=always -g D:\AHCS\WinUpdateKiller\AHCS-001.cpp D:\AHCS\WinUpdateKiller\resource.res -o D:\AHCS\WinUpdateKiller\beta\AHCS_updatekiller_beta_2.0.0.3.exe -lGdi32 -static-libgcc -static-libstdc++ -lole32 -loleaut32
+pause
