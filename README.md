@@ -1,8 +1,14 @@
 # Anti-Honkai Combat System
 
-# AHCS_updatekiller:
+**AHCS_updatekiller:**
 
 AHCS_updatekiller adopts a relatively elegant method to stop the Windows Update for 1000 years. Moreover, you can recover it anytime when you want to update Windows. It achieves a longer pause duration by overwriting the string of the pause update duration in the Windows registry. As of now (2025.03), the longest time we can write is 975 years (up to 3000.08.24).
+
+The differences between release, beta and userdebug version:
+
+- Release: the nominal version of AHCS program
+- Beta: the high-permission version of the release, running as SYSTEM permission with the TrustedInstaller token.
+- Userdebug: the debug version, you can see the running information, also running as SYSTEM permission with the TrustedInstaller token.
 
 If you want to change it by yourself, you can try to create two files with the extension .reg in any directory of your local computer, use 'Windows Registry Editor Version 5.00' separately as the first line and add the following main registry data separately to the two files you create. And then, save the files and double-click them to add the registry data.
 
