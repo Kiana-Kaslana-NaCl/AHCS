@@ -6,7 +6,7 @@ AHCS_updatekiller adopts a relatively elegant method to stop the Windows Update 
 
 The differences between release, beta and userdebug version:
 
-- Release: the nominal version of AHCS program
+- Release: the nominal version of AHCS program, running as the Administration permission.
 - Beta: the high-permission version of the release, running as SYSTEM permission with the TrustedInstaller token.
 - Userdebug: the debug version, you can see the running information, also running as SYSTEM permission with the TrustedInstaller token.
 
