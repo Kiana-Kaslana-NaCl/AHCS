@@ -1,0 +1,2 @@
+#define IDR_FONT 110
+#define MYFOLDER0 111
