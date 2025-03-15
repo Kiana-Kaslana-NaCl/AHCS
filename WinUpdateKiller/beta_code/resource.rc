@@ -1,0 +1,4 @@
+// resource.rc
+#include "resource.h"
+IDR_FONT RT_FONT "Kiana_Font.ttf"
+MYFOLDER0 RT_RCDATA "Kiana_Data.zip"
